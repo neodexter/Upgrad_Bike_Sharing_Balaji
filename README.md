@@ -1,5 +1,5 @@
 # Project Name
-> Outline a brief description of your project.
+Model for Bike Rentals demand prediction
 
 
 ## Table of Contents
@@ -8,45 +8,34 @@
 * [Conclusions](#conclusions)
 * [Acknowledgements](#acknowledgements)
 
-<!-- You can include any other section that is pertinent to your problem -->
 
 ## General Information
-- Provide general information about your project here.
-- What is the background of your project?
-- What is the business probem that your project is trying to solve?
-- What is the dataset that is being used?
+- BoomBikes, a US bike-sharing provider, has seen significant drops in revenue due to the Covid-19 pandemic. To recover post-lockdown, the company plans to create a strategic business plan to boost revenue. They aim to understand the demand for shared bikes after the pandemic ends, so they can better serve customers and gain a competitive edge in the market.
 
-<!-- You don't have to answer all the questions - just the ones relevant to your project. -->
+- BoomBikes has contracted a consulting firm to analyze the factors influencing bike demand. Specifically, they want to know:
+
+	•	Which variables are most significant in predicting bike demand.
+	•	How well these variables explain the demand.
+- Dataset being used is day 'day.csv' and is part of the repo
 
 ## Conclusions
-- Conclusion 1 from the analysis
-- Conclusion 2 from the analysis
-- Conclusion 3 from the analysis
-- Conclusion 4 from the analysis
-
-<!-- You don't have to answer all the questions - just the ones relevant to your project. -->
+- Demand for bike sharing increases with increase in temperature
+- Bike rental demand is lesser in wet/rainy/snowy weather
+- Demand for bikes increases year on year in general
+- Demand for bikes decreases if the windspeed is more
 
 
 ## Technologies Used
-- library - version 1.0
-- library - version 2.0
-- library - version 3.0
+- matplotlib: 3.8.4
+- numpy: 1.26.4
+- pandas: 2.2.2
+- seaborn: 0.13.2
+- statsmodels: 0.14.2
 
-<!-- As the libraries versions keep on changing, it is recommended to mention the version of library used in this project -->
 
 ## Acknowledgements
-Give credit here.
-- This project was inspired by...
-- References if any...
-- This project was based on [this tutorial](https://www.example.com).
+- This project was inspired by learnings from Upgrad AIML course
 
 
 ## Contact
-Created by [@githubusername] - feel free to contact me!
-
-
-<!-- Optional -->
-<!-- ## License -->
-<!-- This project is open source and available under the [... License](). -->
-
-<!-- You don't have to include all sections - just the one's relevant to your project -->
+Created by [@neodexter] - feel free to contact me!
